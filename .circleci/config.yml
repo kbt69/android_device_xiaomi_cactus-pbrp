@@ -8,7 +8,7 @@ jobs:
       VERSION: '3.0.0'
       MAINTAINER: 'PBRP Team'
       VENDOR: 'xiaomi'
-      CODENAME: 'cereus'
+      CODENAME: 'cactus'
       FLAVOR: 'eng'
       TEST_BUILD: 'true'
       #PB_OFFICIAL: 'true'
