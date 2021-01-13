@@ -40,6 +40,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 
 TARGET_USES_64_BIT_BINDER := true
 
+# Encryption
+TW_INCLUDE_CRYPTO := true
+
 # Debugging
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
