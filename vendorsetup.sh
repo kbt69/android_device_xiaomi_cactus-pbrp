@@ -1,3 +1,1 @@
-# Add lunch combos
-add_lunch_combo omni_cactus-eng
-add_lunch_combo omni_cactus-userdebug
+add_lunch_combo omni_certus-eng
