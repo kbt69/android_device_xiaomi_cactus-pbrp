@@ -1,0 +1,14 @@
+/devinfo	emmc	/dev/block/platform/bootdevice/by-name/devinfo	flags=display="Devinfo";backup=1
+/nvcfg		emmc	/dev/block/platform/bootdevice/by-name/nvcfg	flags=display="Non-Volatile Config";backup=1
+/nvdata		emmc	/dev/block/platform/bootdevice/by-name/nvdata	flags=display="Non-Volatile Data";backup=1
+/nvram		emmc	/dev/block/platform/bootdevice/by-name/nvram	flags=display="Non-Volatile RAM";backup=1
+/persist	emmc	/dev/block/platform/bootdevice/by-name/persist	flags=display="Persist Image";backup=1
+/persistent	emmc	/dev/block/platform/bootdevice/by-name/frp	flags=display="Factory Reset Protection"
+/proinfo	emmc	/dev/block/platform/bootdevice/by-name/proinfo	flags=display="Proinfo";backup=1
+/protect_f	emmc	/dev/block/platform/bootdevice/by-name/protect1	flags=display="Protect";backup=1
+/protect_s	emmc	/dev/block/platform/bootdevice/by-name/protect2	flags=subpartitionof=/protect_f;display="Protect 2";backup=1
+/seccfg		emmc	/dev/block/platform/bootdevice/by-name/seccfg	flags=display="Security Config";backup=1
+/vbmeta		emmc	/dev/block/platform/bootdevice/by-name/vbmeta	flags=display="Verified Boot Meta";flashimg=1
+
+/external_sd	vfat	/dev/block/mmcblk1p1	/dev/block/mmcblk1
+/usb-otg	vfat	/dev/block/sda1		/dev/block/sda		flags=storage;removable;wipeingui
